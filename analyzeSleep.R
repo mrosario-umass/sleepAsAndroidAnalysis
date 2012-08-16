@@ -15,6 +15,7 @@ analyzeSleepData<-function(){
     if(answer=="e")
       plotSleepInfo(sleepData,x="To",y="Rating")
     answer="complete"
+    cat("What will this do? Is it automatic?")
   }
   if(answer=="raw"){
     plotSleepData(data=sleepData)
